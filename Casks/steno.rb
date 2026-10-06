@@ -1,6 +1,6 @@
 cask "steno" do
-  version "0.1.1"
-  sha256 "22d3727e6ba3253eee9b54c458cc5275a1093d3f4efca457f17636d2fee8fcd5"
+  version "0.1.2"
+  sha256 "e695131aca7c2b401d6f5de4aa8a87622f5b7dda7911a7e0b9f3491e9161fb0b"
 
   url "https://github.com/mameli/steno/releases/download/v#{version}/Steno-#{version}.zip"
   name "Steno"
