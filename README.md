@@ -1,13 +1,15 @@
-# Homebrew tap for Steno
+# Homebrew tap for Takku
 
-[Steno](https://github.com/mameli/steno) is a macOS menu bar app that records your meetings, transcribes them on your Mac and writes the Transcript and a Summary into your Obsidian vault.
+[Takku](https://github.com/mameli/takku) is a macOS menu bar app that records your meetings, transcribes them on your Mac and writes the Transcript and a Summary into your Obsidian vault.
 
 ```sh
-brew install --cask mameli/steno/steno
+brew install --cask mameli/takku/takku
 ```
 
-Steno is signed but not notarized by Apple: the first time you open it, macOS blocks it. Press **Done**, then go to **System Settings → Privacy & Security** and press **Open Anyway**. Do this again after every `brew upgrade`.
+Takku is signed but not notarized by Apple: the first time you open it, macOS blocks it. Press **Done**, then go to **System Settings → Privacy & Security** and press **Open Anyway**. Do this again after every `brew upgrade`.
 
-Uninstall with `brew uninstall --cask steno`; add `--zap` to also delete Steno's settings, recordings and transcription models. Your notes in the Obsidian vault and the API keys in the Keychain are not touched.
+Uninstall with `brew uninstall --cask takku`; add `--zap` to also delete Takku's settings, recordings and transcription models. Your notes in the Obsidian vault and the API keys in the Keychain are not touched.
 
-The cask is updated by `scripts/release.sh` in the Steno repository at every release.
+Takku was called Steno until 0.2.1: `brew upgrade` replaces the `steno` cask with `takku` (`cask_renames.json`).
+
+The cask is updated by `scripts/release.sh` in the Takku repository at every release.
