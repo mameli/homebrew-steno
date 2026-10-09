@@ -5,7 +5,7 @@ cask "takku" do
   url "https://github.com/mameli/takku/releases/download/v#{version}/Takku-#{version}.zip"
   name "Takku"
   desc "Records meetings, transcribes them locally and writes notes to Obsidian"
-  homepage "https://github.com/mameli/takku"
+  homepage "https://takku.app"
 
   livecheck do
     url :url
