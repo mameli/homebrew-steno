@@ -1,6 +1,6 @@
 # Homebrew tap for Takku
 
-[Takku](https://github.com/mameli/takku) is a macOS menu bar app that records your meetings, transcribes them on your Mac and writes the Transcript and a Summary into your Obsidian vault.
+[Takku](https://github.com/mameli/Takku) is a macOS menu bar app that records your meetings, transcribes them on your Mac and writes the Transcript and a Summary into your Obsidian vault.
 
 ```sh
 brew install --cask mameli/takku/takku

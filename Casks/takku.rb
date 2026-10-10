@@ -2,7 +2,7 @@ cask "takku" do
   version "0.3.0"
   sha256 "8905373bf53b1f70c61176b755f3e379b84787cdda7cb38692838857141ba23d"
 
-  url "https://github.com/mameli/takku/releases/download/v#{version}/Takku-#{version}.zip"
+  url "https://github.com/mameli/Takku/releases/download/v#{version}/Takku-#{version}.zip"
   name "Takku"
   desc "Records meetings, transcribes them locally and writes notes to Obsidian"
   homepage "https://takku.app"
