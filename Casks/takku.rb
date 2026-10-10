@@ -30,10 +30,4 @@ cask "takku" do
     "~/Library/Preferences/app.takku.takku.plist",
     "~/Library/Preferences/dev.mameli.steno.plist",
   ]
-
-  caveats <<~EOS
-    Takku is signed but not notarized by Apple, so macOS blocks it the first time it opens:
-    press Done, then go to System Settings → Privacy & Security and press Open Anyway.
-    Do this again after every upgrade.
-  EOS
 end
