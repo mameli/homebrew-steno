@@ -4,7 +4,7 @@ cask "takku" do
 
   url "https://github.com/mameli/Takku/releases/download/v#{version}/Takku-#{version}.dmg"
   name "Takku"
-  desc "Records meetings, transcribes them locally and writes notes to Obsidian"
+  desc "Records meetings, transcribes them locally and writes Markdown notes"
   homepage "https://takku.app"
 
   livecheck do
