@@ -1,6 +1,6 @@
 cask "takku" do
-  version "1.14.0"
-  sha256 "890753c8f54698ea71a78e19a5f1d54ccb526744b1c29bd7e83329fe30a9a9a5"
+  version "1.15.0"
+  sha256 "bab1b5e4d23ce7c86c0b5b4aafc9b06778204b1699cd7af56d1373f204eb07e6"
 
   url "https://github.com/mameli/Takku/releases/download/v#{version}/Takku-#{version}.dmg"
   name "Takku"
